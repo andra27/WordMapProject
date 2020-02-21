@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#008577</color>-->
+<!--    <color name="colorPrimaryDark">#00574B</color>-->
+<!--    <color name="colorAccent">#D81B60</color>-->
+    <color name="backgroundLayout">#1c313a</color>
+    <color name="backgroundButtons">#d3b8ae</color>
+
+    <color name="red">#d50000</color>
+
+
+    <color name="primaryColor">#67eaaa</color>
+    <color name="primaryLightColor">#9dffdc</color>
+    <color name="primaryDarkColor">#29b77b</color>
+    <color name="secondaryColor">#eaf73b</color>
+    <color name="secondaryLightColor">#ffff73</color>
+    <color name="secondaryDarkColor">#b4c400</color>
+    <color name="primaryTextColor">#010a21</color>
+    <color name="secondaryTextColor">#111111</color>
+
+    <color name="background">#9e9e9e</color>
+    <color name="colors"> #50bdbdbd</color> <!--pt background -->
+    <color name="whitee">#fafafa </color>
+
+
+
+</resources>

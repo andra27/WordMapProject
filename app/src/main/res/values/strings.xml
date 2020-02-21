@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">WorldMap</string>
+    <string name="phoneNumber">Email</string>
+    <string name="password">Password</string>
+    <string name="world_map">World Map</string>
+    <string name="countries_capitals">Countries and Capitals</string>
+    <string name="visited_countries">Visited Countries</string>
+    <string name="settings">Find Out More</string>
+    <string name="visited">Visited Capitals</string>
+    <string name="add_visited_country"> Add Visited Country</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="note">Notes</string>
+    <string name="comments">Comments</string>
+    <string name="choose_a_country">Choose a country</string>
+    <string name="date">Date</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="f_l_name">FirstName and LastName</string>
+    <string name="phone">Email</string>
+    <string name="passw">Password</string>
+    <string name="sign_up_1">Sign Up</string>
+    <string name="back">Back</string>
+    <string name="pop">Population</string>
+    <string name="off">Official language</string>
+    <string name="area">Area</string>
+    <string name="popula">Population</string>
+    <string name="other_info">Other Information</string>
+    <string name="other">Other information about the country</string>
+    <string name="more">More Information About Countries</string>
+    <string name="which">Which country has the biggest surface?</string>
+    <string name="click">Click here to find out!</string>
+    <string name="many">How many countries does Africa has?</string>
+    <string name="where">Where 90% of the world\'s fresh water is?</string>
+    <string name="highest">Click here to know the three countries that have the highest population</string>
+    <string name="see">Click to see how many capitals you have in your list!</string>
+    <string name="change">Click here to change  the image!</string>
+    <string name="upload">Click here to upload an image from the phone!</string>
+    <string name="statistics">Some statistics about your visited capitals.</string>
+    <string name="subtitle">In order to see the information from a country you need to choose first a country from the drop down list, than click on the name of the continent that has that country.</string>
+    <string name="title">INFORMATION ABOUT COUNTRIES AND CAPITALS OF THE WORLD</string>
+    <string name="file">Information saved in the file</string>
+
+
+    <string-array name="countries_array">
+        <item>Romania</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Netherlands</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Spain</item>
+        <item>Portugal</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="terrain_map">Terrain Map</string>
+
+</resources>

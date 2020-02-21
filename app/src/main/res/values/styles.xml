@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">#1976D2</item>-->
+<!--        <item name="colorPrimaryDark">#0097A7</item>-->
+<!--        <item name="colorAccent">#FFC107</item>-->
+<!--        <item name="colorControlActivated">#FFC107</item>-->
+<!--        <item name="colorControlHighlight">#FFEB3B</item>-->
+<!--    </style>-->
+    <style name="PrimaryButton" parent="Theme.AppCompat">
+        <item name="colorButtonNormal">@color/backgroundLayout</item>
+        <item name="colorControlHighlight">@color/secondaryLightColor</item>
+
+    </style>
+    <style name="PrimaryButtonGraph" parent="Theme.AppCompat">
+        <item name="colorButtonNormal">@color/whitee</item>
+        <item name="colorControlHighlight">@color/secondaryLightColor</item>
+
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryLightColor</item>
+        <item name="colorOnPrimary">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
+        <item name="colorOnSecondary">@color/secondaryDarkColor</item>
+
+        <!-- Additional colors -->
+<!--        <item name="android:colorBackground">@color/colorBackground</item>-->
+<!--        <item name="colorOnBackground">@color/colorOnBackground</item>-->
+<!--        <item name="colorSurface">@color/colorSurface</item>-->
+<!--        <item name="colorOnSurface">@color/colorOnSurface</item>-->
+        <item name="colorError">@color/red</item>
+        <item name="colorOnError">@color/backgroundLayout</item>
+
+        <!-- Status bar color (even if colorPrimaryVariant is set) -->
+        <item name="colorPrimaryDark">@color/backgroundLayout</item>
+
+<!--        <item name="android:textColorPrimary">@color/colorText</item>-->
+<!--        <item name="android:textColorSecondary">@color/colorText</item>-->
+<!--        &lt;!&ndash; i.e. Edit text cursor color &ndash;&gt;-->
+<!--        <item name="android:colorControlActivated">@color/colorControlActivated</item>-->
+<!--        &lt;!&ndash; i.e. Ripple effect color &ndash;&gt;-->
+<!--        <item name="android:colorControlHighlight">@color/colorControlHighlight</item>-->
+
+    </style>
+    <style name="AppThemeL" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryLightColor</item>
+        <item name="colorOnPrimary">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
+        <item name="colorOnSecondary">@color/secondaryDarkColor</item>
+
+        <!-- Additional colors -->
+        <!--        <item name="android:colorBackground">@color/colorBackground</item>-->
+        <!--        <item name="colorOnBackground">@color/colorOnBackground</item>-->
+        <!--        <item name="colorSurface">@color/colorSurface</item>-->
+        <!--        <item name="colorOnSurface">@color/colorOnSurface</item>-->
+        <item name="colorError">@color/red</item>
+        <item name="colorOnError">@color/backgroundLayout</item>
+
+        <!-- Status bar color (even if colorPrimaryVariant is set) -->
+        <item name="colorPrimaryDark">@color/backgroundLayout</item>
+
+        <!--        <item name="android:textColorPrimary">@color/colorText</item>-->
+        <!--        <item name="android:textColorSecondary">@color/colorText</item>-->
+        <!--        &lt;!&ndash; i.e. Edit text cursor color &ndash;&gt;-->
+        <!--        <item name="android:colorControlActivated">@color/colorControlActivated</item>-->
+        <!--        &lt;!&ndash; i.e. Ripple effect color &ndash;&gt;-->
+        <!--        <item name="android:colorControlHighlight">@color/colorControlHighlight</item>-->
+
+    </style>
+
+
+
+    <style name="AppThemeMenu" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryLightColor</item>
+        <item name="android:textColor">@color/primaryLightColor</item>
+    </style>
+
+</resources>

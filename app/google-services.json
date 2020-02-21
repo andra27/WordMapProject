@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "825832191928",
+    "firebase_url": "https://worldmap-bda97.firebaseio.com",
+    "project_id": "worldmap-bda97",
+    "storage_bucket": "worldmap-bda97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825832191928:android:c951f8e6f9ff1c70d7414d",
+        "android_client_info": {
+          "package_name": "com.example.worldmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825832191928-egs79am04gq9pd49in1ca70r8lnlnkhv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.worldmap",
+            "certificate_hash": "671627c0068d22a0a5788e5e1177dff5f63811a2"
+          }
+        },
+        {
+          "client_id": "825832191928-47co2buruf7hagl4e8obkuc0anq5vvub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWZWlX6G-XgJun0E2vy-216dkypYXXtH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825832191928-47co2buruf7hagl4e8obkuc0anq5vvub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

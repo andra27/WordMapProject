@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colors"
+        tools:context=".ViewCountry">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            android:background="@color/colors"
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:theme="@style/PrimaryButton"
+                android:text="@string/back" />
+
+            <TextView
+                android:id="@+id/tvNameOfCountry"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:layout_weight="6"
+                android:gravity="center"
+                android:typeface="sans"
+                />
+
+            <ImageButton
+                android:id="@+id/imgAdd"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:layout_weight="3"
+                android:src="@drawable/ic_action_name"
+                android:background="@null" />
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:background="@color/colors">
+
+            <TextView
+                android:id="@+id/tvPopulation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="54dp"
+                android:text="@string/pop"
+                android:textColor="#000000"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/tvPopulationInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="98dp"
+                android:layout_marginBottom="628dp"
+                android:alpha=".8"
+                android:background="#eeeeee"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/tvOffLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tvOffLanguageInfo"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="105dp"
+                android:layout_marginBottom="14dp"
+                android:text="@string/off"
+                android:textColor="#000000"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/tvOffLanguageInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginBottom="543dp"
+                android:alpha=".8"
+                android:background="#eeeeee"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:typeface="sans" />
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/imageView2"-->
+            <!--                android:layout_width="104dp"-->
+            <!--                android:layout_height="95dp"-->
+            <!--                android:layout_alignParentEnd="true"-->
+            <!--                android:layout_alignParentBottom="true"-->
+            <!--                android:layout_marginEnd="355dp"-->
+            <!--                android:layout_marginBottom="462dp"-->
+            <!--                android:src="@drawable/fran"-->
+            <!--                android:typeface="sans" />-->
+
+
+            <TextView
+                android:id="@+id/tvInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_above="@+id/tvInfoInfo"
+                android:layout_below="@+id/goodleMapsOpen"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginEnd="173dp"
+                android:layout_marginBottom="24dp"
+                android:text="@string/other"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tvInfoInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="215dp"
+                android:background="#eeeeee"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:typeface="sans" />
+
+            <RelativeLayout
+                android:layout_width="238dp"
+                android:layout_height="345dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="197dp"
+                android:layout_marginBottom="332dp"
+                android:background="#4000bfa5"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNameCapital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="82dp"
+                    android:layout_marginTop="12dp"
+                    android:alpha=".8"
+                    android:background="#eeeeee"
+                    android:text="TextView"
+                    android:textColor="#000000"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/tvArea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginBottom="249dp"
+                    android:text="@string/area"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvAreaInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="57dp"
+                    android:layout_marginBottom="250dp"
+                    android:alpha=".8"
+                    android:background="#eeeeee"
+                    android:text="TextView"
+                    android:textColor="#000000"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/tvPopCapital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginBottom="205dp"
+                    android:text="@string/popula"
+                    android:textColor="#000000"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/tvPopCapitalInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="96dp"
+                    android:layout_marginBottom="206dp"
+                    android:alpha=".8"
+                    android:background="#eeeeee"
+                    android:text="TextView"
+                    android:textColor="#000000"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/tvCapitalInfoInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginBottom="155dp"
+                    android:text="@string/other_info"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvInfoInfoCapital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="115dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginBottom="28dp"
+                    android:alpha=".8"
+                    android:background="#eeeeee"
+                    android:text="TextView"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/goodleMapsOpen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="237dp"
+                android:text="See the location"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

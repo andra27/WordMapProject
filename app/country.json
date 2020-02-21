@@ -1,0 +1,21 @@
+{
+  "1":
+  {
+    "country":"China",
+    "population": "1.420.062.022",
+    "capital":"Beijing"
+  },
+  "2":
+    {
+      "country":"Indina",
+      "population":"1.368.737.513",
+      "capital":"New Delhi"
+    },
+
+  "3":
+  {
+    "country":"United States",
+    "population":"329.093.110",
+    "capital":"Washington D.C"
+  }
+}

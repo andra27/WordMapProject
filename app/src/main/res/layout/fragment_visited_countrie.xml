@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VisitedCountrieFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/fran"
+            android:background="#67eaaa"/>
+
+        <TextView
+            android:id="@+id/txtTitle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:layout_marginTop="10dp"
+        android:text="@string/visited"
+        android:textAlignment="center"/>
+
+
+    <ImageButton
+        android:id="@+id/btnAddVisited"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_action_name"
+        android:background="@null"/>
+
+   </LinearLayout>
+   <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:orientation="vertical">
+        <!--aici fac o lista cu tarile vizitate care le iau din baza de date sau din tr o lista de tari viziiatate-->
+
+       <ListView
+           android:id="@+id/lvVisitedCountries"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="6">
+
+       </ListView>
+       <Button
+           android:id="@+id/btnAsyncTask"
+           android:layout_width="wrap_content"
+           android:layout_height="0dp"
+           android:layout_marginTop="12dp"
+           android:layout_weight="1"
+           android:theme="@style/PrimaryButton"
+           android:text="@string/see" />
+       <TextView
+           android:id="@+id/tvShow"
+           android:layout_marginTop="7dp"
+           android:layout_width="wrap_content"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           />
+   </LinearLayout>
+
+
+   </LinearLayout>
+
+
+</FrameLayout>
